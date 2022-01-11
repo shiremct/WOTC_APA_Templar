@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>a3c1c85f-b4a3-48e3-934c-0ce02f011dbe</Guid>
+    <Name>WOTC_APA_Templar</Name>
+    <Description>WOTC_APA_Templar
+
+tags= war of the chosen, soldier class,  gameplay</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>WOTC_APA_Templar</AssemblyName>
+    <RootNamespace>WOTC_APA_Templar</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Config\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEncyclopedia.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEngine.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGame.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameCore.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_CharacterStats.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_WeaponData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPromotionUIMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComStrategyTuning.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_APA_TemplarSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_APA_WeaponData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_CostBasedAbilityColors.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\PerkFX_WOTC_APA_Brand.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\PerkFX_WOTC_APA_DarkRitual.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\PerkFX_WOTC_APA_Exchange.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\PerkFX_WOTC_APA_Harden.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\PerkFX_WOTC_APA_IonicStorm.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\PerkFX_WOTC_APA_PsiStrike.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\PerkFX_WOTC_APA_Reanimate.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\PerkFX_WOTC_APA_ReflectShot.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\PerkFX_WOTC_APA_Volt.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_WOTC_APA_Templar.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\WOTC_APA_Templar.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\XComGame.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="Src\WOTC_APA_Templar\Classes\UIStrategyScreenListener_WOTC_APA_TemplarAcademyUnlocks.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\WOTC_APA_TemplarAcademyUnlocks.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2AbilityCost_WOTC_APA_TemplarFocus.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2AbilityMultiTarget_Radius_Fuse.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2AbilityMultiTarget_Radius_WOTC_APA_Focus.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2AbilityTag_WOTC_APA_Templar.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Ability_WOTC_APA_TemplarAbilitySet.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Character_WOTC_APA_TemplarCharacters.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Condition_WOTC_APA_BelowMaxFocus.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Condition_WOTC_APA_DuplicateFocusEffect.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Condition_WOTC_APA_HardenTarget.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Condition_WOTC_APA_PsiStrikeTarget.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Condition_WOTC_APA_ReanimateTarget.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Condition_WOTC_APA_ReanimateZombieLimit.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Condition_WOTC_APA_SourceUnitValue.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Condition_WOTC_APA_TargetRankRequirement.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Condition_WOTC_APA_VoltTarget.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2DownloadableContentInfo_WOTC_APA_Templar.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Effect_WOTC_APA_ArcWaveMultiDamage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Effect_WOTC_APA_BonusDamage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Effect_WOTC_APA_BrandDamage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Effect_WOTC_APA_BrandFocus.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Effect_WOTC_APA_ConsecratedBladesDamage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Effect_WOTC_APA_DarkRitual.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Effect_WOTC_APA_DarkRitualDamage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Effect_WOTC_APA_Deflect.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Effect_WOTC_APA_HardenShield.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Effect_WOTC_APA_Parry.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Effect_WOTC_APA_ReanimateZombieSpawn.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2Effect_WOTC_APA_SoulbindFocus.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2EventListener_WOTC_APA_Templar.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2TargetingMethod_WOTC_APA_FocusRadius.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_APA_Templar\Classes\X2TargetingMethod_WOTC_APA_Fuse.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Config" />
+    <Folder Include="Content" />
+    <Folder Include="Localization" />
+    <Folder Include="Src" />
+    <Folder Include="Src\WOTC_APA_Templar" />
+    <Folder Include="Src\WOTC_APA_Templar\Classes" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

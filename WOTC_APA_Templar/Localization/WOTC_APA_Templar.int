@@ -1,0 +1,63 @@
+
+[X2Ability_WOTC_APA_TemplarAbilitySet]
+
+strPsiConduit1Name="Psionic Conduit I"
+strPsiConduit1Desc="<font color='#CA7200'>FOCUS MECHANIC:</font><br/><Bullet/> Maximum amount of stored Energy: <font color='#c451c2'><Ability:PSI_CONDUIT_I_MAX_FOCUS/></font>.<br/><Bullet/> Chance to partially deflect incoming attacks: <font color='#3ABD23'><Ability:PSI_CONDUIT_I_DEFLECT_CHANCE/>%</font>."
+
+strPsiConduit2Name="Psionic Conduit II"
+strPsiConduit2Desc="<font color='#CA7200'>FOCUS MECHANIC:</font><br/><Bullet/> Maximum amount of stored Energy: <font color='#c451c2'><Ability:PSI_CONDUIT_II_MAX_FOCUS/></font>. Begin missions with <font color='#c451c2'><Ability:PSI_CONDUIT_II_STARTING_FOCUS/></font> Energy already stored.<br/><Bullet/> Chance to partially deflect incoming attacks: <font color='#3ABD23'><Ability:PSI_CONDUIT_II_DEFLECT_CHANCE/>%</font>."
+
+strPsiConduit3Name="Psionic Conduit III"
+strPsiConduit3Desc="<font color='#CA7200'>FOCUS MECHANIC:</font><br/><Bullet/> Maximum amount of stored Energy: <font color='#c451c2'><Ability:PSI_CONDUIT_III_MAX_FOCUS/></font>. Begin missions with <font color='#c451c2'><Ability:PSI_CONDUIT_II_STARTING_FOCUS/></font> Energy already stored.<br/><Bullet/> Chance to partially deflect incoming attacks: <font color='#3ABD23'><Ability:PSI_CONDUIT_III_DEFLECT_CHANCE/>%</font>."
+
+
+strConduitLevelName = "Conduit Energy"
+strConduitLevelDesc = "The amount of Energy available to the Templar."
+
+strEmpowered="Empowered "
+
+strBrandHelpText="Branded with a psionic hex, this unit is <font color='#3ABD23'>+<Ability:BRAND_OFFENSE_STAT_BONUS/>%</font> more likely to be hit and suffer critical hits."
+strEmpoweredBrandHelpText="Branded with an Empowered psionic hex, this unit also suffers <font color='#3ABD23'>+<Ability:BRAND_EMPOWERED_BASE_DAMAGE_BONUS/></font> additional Damage on all incoming attacks and an additional <font color='#3ABD23'>+<Ability:BRAND_EMPOWERED_CRIT_DAMAGE_BONUS/></font> Damage when Critically Hit."
+
+
+
+[X2AbilityTag_WOTC_APA_Templar]
+
+; // Generic Tags
+strSingleAttack = "incoming attack"
+strPluralAttacks = "incoming attacks"
+
+strEmpowered="Empowered "
+
+strBaseBrandDesc="Brand an enemy with a psionic hex, making them <font color='#3ABD23'>+<Ability:BRAND_OFFENSE_STAT_BONUS/>%</font> more likely to be hit and suffer critical hits.<br/> - Empowering will cause the target to take <font color='#3ABD23'>+<Ability:BRAND_EMPOWERED_BASE_DAMAGE_BONUS/></font> additional Damage on all incoming attacks and an additional <font color='#3ABD23'>+<Ability:BRAND_EMPOWERED_CRIT_DAMAGE_BONUS/></font> Damage when Critically Hit."
+strEmpoweredBrandDesc="<font color='#c451c2'>EMPOWERED:</font> Brand an enemy with a psionic hex, making them <font color='#3ABD23'>+<Ability:BRAND_OFFENSE_STAT_BONUS/>%</font> more likely to be hit and suffer critical hits, and causing them to take <font color='#3ABD23'>+<Ability:BRAND_EMPOWERED_BASE_DAMAGE_BONUS/></font> additional Damage on all incoming attacks and an additional <font color='#3ABD23'>+<Ability:BRAND_EMPOWERED_CRIT_DAMAGE_BONUS/></font> Damage when Critically Hit."
+
+strBaseVoltDesc="Channel Energy into a focused lightning strike, dealing increased damage to robotic enemies (approx: <font color='#3ABD23'>+50%</font>).<br/> - Empowering will allow the attack to bypass any shields or armor and increases the attack damage against all targets (approx: <font color='#3ABD23'>+25%</font>)."
+strEmpoweredVoltDesc="<font color='#c451c2'>EMPOWERED:</font> Channel Energy into a focused electrical lightning strike, bypassing any shields or armor and dealing increased damage to robotic enemies (approx: <font color='#3ABD23'>+50%</font>)."
+
+strBaseParryDesc="Focus Energy into a defensive shield, deflecting all damage from the next <Ability:PARRY_ACTIVATIONS/> that would hit the <Ability:ClassName/>.<br/> - Empowering will cause parried attacks to be reflected back at the attacker."
+strEmpoweredParryDesc="<font color='#c451c2'>EMPOWERED:</font> Focus Energy into a defensive shield, causing the next <Ability:PARRY_ACTIVATIONS/> that would hit the <Ability:ClassName/> to be parried, with all damage reflected back at the attacker."
+
+strBasePsiStrikeDesc="Hit an organic enemy with a ball of Psionic energy, knocking the target back, dealing a small amount of guaranteed damage, and disorienting them.<br/> - Empowering will add a chance to stun targets and add bonus damage against psionic enemies."
+strEmpoweredPsiStrikeDesc="<font color='#c451c2'>EMPOWERED:</font> Hit an organic enemy with a ball of Psionic energy, knocking the target back, dealing a small amount of guaranteed damage, and stunning or disorienting them. Psionic enemies will take additional damage and are guaranteed to be stunned, if not immune.
+
+strBaseFuseDesc="Remotely detonate an enemy's equipped explosive.<br/> - Empowering will increase the radius of the detonated explosive by <font color='#3ABD23'>+<Ability:FUSE_EMPOWERED_EXPLOSION_RADIUS_BONUS/></font> meter."
+strEmpoweredFuseDesc="<font color='#c451c2'>EMPOWERED:</font> Remotely detonate an enemy's equipped explosive, increasing the explosion radius by <font color='#3ABD23'>+<Ability:FUSE_EMPOWERED_EXPLOSION_RADIUS_BONUS/></font> additional meter."
+
+strBaseHardenDesc="Reinforce physical resistances with an Energy shield. Grants the <Ability:ClassName/> up to <font color='#3ABD23'><Ability:HARDEN_SHIELD_POINTS/></font> Shield points.<br/> - Empowering will grant all allies within a <font color='#3ABD23'><Ability:HARDEN_AREA_TILE_RADIUS/></font> Tile radius <font color='#3ABD23'>+<Ability:HARDEN_AREA_SHIELD_POINTS/></font> Shield point."
+strEmpoweredHardenDesc="<font color='#c451c2'>EMPOWERED:</font> Reinforce physical resistances with an Energy shield. Grants the <Ability:ClassName/> up to <font color='#3ABD23'><Ability:HARDEN_SHIELD_POINTS/></font> Shield points and gives all allies within a <font color='#3ABD23'><Ability:HARDEN_AREA_TILE_RADIUS/></font> Tile radius <font color='#3ABD23'>+<Ability:HARDEN_AREA_SHIELD_POINTS/></font> Shield point."
+
+strBaseExchangeDesc="Teleport yourself and an ally, exchanging positions on the battlefield.<br/> - Empowering will cause the <Ability:ClassName/> to self-Stasis after the teleport."
+strEmpoweredExchangeDesc="<font color='#c451c2'>EMPOWERED:</font> Teleport yourself and an ally, exchanging positions on the battlefield. The <Ability:ClassName/> will self-Stasis after the teleport."
+
+strBaseReanimateDesc="Raise a Zombie from a nearby dead humanoid body that will spawn in with 1 action to use immediately.<br/> - Empowering will raise a Zombie with additional Health, Dodge, and Mobility that will spawn in with 2 actions to use immediately."
+strEmpoweredReanimateDesc="<font color='#c451c2'>EMPOWERED:</font> Raise a stronger, empowered Zombie from a nearby dead humanoid body that will spawn in with 2 actions to use immediately."
+
+strBaseVoidConduitDesc="Trap a humanoid enemy in a psionic prison for <font color='#3ABD23'><Ability:VOID_CONDUIT_BASE_DURATION/></font> turn. Immediately on activation, at the beginning of each turn, and on expiration, the target will take <font color='#CA7200'><Ability:VOID_CONDUIT_DAMAGE/>HP</font> damage, healing the <Ability:ClassName/> <font color='#3ABD23'><Ability:VOID_CONDUIT_HEALED/>HP</font>.<br/> - Empowering will extend the stasis effect for <font color='#3ABD23'>+<Ability:VOID_CONDUIT_BONUS_DURATION/></font> additional turn."
+strEmpoweredVoidConduitDesc="<font color='#c451c2'>EMPOWERED:</font> Trap a humanoid enemy in a psionic prison for <font color='#3ABD23'><Ability:VOID_CONDUIT_EMPOWERED_DURATION/></font> turns. Immediately on activation, at the beginning of each turn, and on expiration, the target will take <font color='#CA7200'><Ability:VOID_CONDUIT_DAMAGE/>HP</font> damage, healing the <Ability:ClassName/> <font color='#3ABD23'><Ability:VOID_CONDUIT_HEALED/>HP</font>."
+
+strBaseSkyfallDesc="Teleport down from the icy void, rending an enemy anywhere on the map, dealing <font color='#3ABD23'>+<Ability:SKYFALL_DAMAGE_MULTIPLIER/>%</font> damage and freezing the target. If a valid target is killed, gain one additional unit of Energy back.<br/> - Empowering will disorient any enemies within <font color='#3ABD23'><Ability:SKYFALL_TILE_RADIUS/></font> Tiles of the target and grant the <Ability:ClassName/> a Momentum action."
+strEmpoweredSkyfallDesc="<font color='#c451c2'>EMPOWERED:</font> Teleport down from the icy void, rending an enemy anywhere on the map, dealing <font color='#3ABD23'>+<Ability:SKYFALL_DAMAGE_MULTIPLIER/>%</font> damage and freezing the target. Any enemies within <font color='#3ABD23'><Ability:SKYFALL_TILE_RADIUS/></font> Tiles of the target will be disoriented. The <Ability:ClassName/> gains a Momentum action after the attack and one additional unit of Energy when killing valid targets."
+
+strBaseSunderingStormDesc="Move to a location, calling forth a psionic storm that damages and shreds <font color='#3ABD23'>1</font> point of armor to all enemies within a <font color='#3ABD23'><Ability:SUNDERING_STORM_TILE_RADIUS/></font> Tile radius.<br/> - Empowering will deal additional damage to the environment around each target and shred <font color='#3ABD23'>1</font> additional point of armor."
+strEmpoweredSunderingStormDesc="<font color='#c451c2'>EMPOWERED:</font> Move to a location, calling forth an empowered psionic storm that damages all enemies and their surrounding environment within a <font color='#3ABD23'><Ability:SUNDERING_STORM_TILE_RADIUS/></font> Tile radius, shredding <font color='#3ABD23'>2</font> points of armor."

@@ -1,0 +1,291 @@
+
+
+;  ////////////////////////////////////
+;  // Changes to Base-Game Abilities //
+;  ////////////////////////////////////
+
+
+
+;  ////////////////////////////////
+;  // Changes to Items & Weapons //
+;  ////////////////////////////////
+
+
+
+;  /////////////
+;  // Templar //
+;  /////////////
+
+[Templar X2EncyclopediaTemplate]
+ListTitle = "Templar Class"
+DescriptionTitle = "Templar Class"
+DescriptionEntry = "Templars are members of an esoteric techno-religious order that have discovered a means to, allegedly, harness Energy from the transfer of consciousness from our plane of existence to another. While only the highest ranking members of the order know the secrets surrounding the true nature of their power, or how it's generated, no-one can argue with the potency of the Psionic powers their members can wield. Energy (their Focus Mechanic) can be harvested from sentient, organic enemies when killed, and then used to cast powerful Psionic abilities that leave nothing to chance.<br/><br/>Other class abilities may grant additional benefits that build on the Energy mechanic."
+
+[XLocalizedData]
+TemplarTutorialTitle = "Templar Psionic Conduit"
+TemplarTutorialText = "Templars are members of a secretive, esoteric techno-religious order capable of harnessing Energy from the enemies they kill, and then using this Energy to cast powerful Psionic abilities. Energy (their Focus Mechanic) can be harvested from sentient, organic enemies when killed with Rend, and then used to cast powerful Psionic abilities that leave nothing to chance."
+
+TemplarMomentumTutorialTitle="Templar Momentum"
+TemplarMomentumTutorialText="After using Rend, Templars always trigger Momentum, gaining a free movement action which allows them to return to the safety of cover. Some Energy abilities, such as Parry and Exchange, can also be activated using the Momemtum action point."
+
+
+[Templar X2SoldierClassTemplate]
+DisplayName = "Templar"
+ClassSummary = "Templars are members of a secretive order capable of harnessing Energy from the enemies they kill, and then using this Energy to cast power Psionic abilities.<br/><br/><font color='#CA7200'>Can use Psi Gauntlets and Auto-Pistols.</font>"
+AbilityTreeTitles[0] = "Sorceror"
+AbilityTreeTitles[1] = "Crusader"
+AbilityTreeTitles[2] = "Chaplain"
+AbilityTreeTitles[3] = "XCOM"
+
+!RankIcons=()
++RankIcons[0]="UILibrary_Common.rank_rookie"
++RankIcons[1]="UILibrary_WOTC_APA_Class_Pack.ranks_Squaddie_Level1"
++RankIcons[2]="UILibrary_WOTC_APA_Class_Pack.ranks_Corporal_Level1"
++RankIcons[3]="UILibrary_WOTC_APA_Class_Pack.ranks_Sergeant_Level2"
++RankIcons[4]="UILibrary_WOTC_APA_Class_Pack.ranks_Lieutenant_Level2"
++RankIcons[5]="UILibrary_WOTC_APA_Class_Pack.ranks_Captain_Level2"
++RankIcons[6]="UILibrary_WOTC_APA_Class_Pack.ranks_Major_Level3"
++RankIcons[7]="UILibrary_WOTC_APA_Class_Pack.ranks_Colonel_Level3"
+
+[WOTC_APA_TemplarAcolyte X2SoldierClassTemplate]
+DisplayName = "Templar Acolyte"
+ClassSummary = "Templars are members of a secretive order capable of harnessing Energy from the enemies they kill, and then using this Energy to cast power Psionic abilities.<br/><br/><font color='#CA7200'>Can use Psi Gauntlets and Auto-Pistols.</font>"
+AbilityTreeTitles[0] = "Sorceror"
+AbilityTreeTitles[1] = "Crusader"
+AbilityTreeTitles[2] = "Chaplain"
+AbilityTreeTitles[3] = "XCOM"
+
+!RankIcons=()
++RankIcons[0]="UILibrary_Common.rank_rookie"
++RankIcons[1]="UILibrary_WOTC_APA_Class_Pack.ranks_Squaddie_Level1"
++RankIcons[2]="UILibrary_WOTC_APA_Class_Pack.ranks_Corporal_Level1"
++RankIcons[3]="UILibrary_WOTC_APA_Class_Pack.ranks_Sergeant_Level2"
++RankIcons[4]="UILibrary_WOTC_APA_Class_Pack.ranks_Lieutenant_Level2"
++RankIcons[5]="UILibrary_WOTC_APA_Class_Pack.ranks_Captain_Level2"
++RankIcons[6]="UILibrary_WOTC_APA_Class_Pack.ranks_Major_Level3"
++RankIcons[7]="UILibrary_WOTC_APA_Class_Pack.ranks_Colonel_Level3"
+
+RandomNickNames[0]="Ether"
+RandomNickNames[1]="Shock"
+RandomNickNames[2]="Scorch"
+RandomNickNames[3]="Fury"
+RandomNickNames[4]="Storm"
+RandomNickNames[5]="Volt"
+RandomNickNames[6]="Warden"
+RandomNickNames[7]="Scorch"
+RandomNickNames[8]="Prophet"
+RandomNickNames[9]="Stormwalker"
+RandomNickNames[10]="Mystic"
+RandomNickNames[11]="Magister"
+
+RandomNickNames_Male[0]="Warlock"
+
+RandomNickNames_Female[0]="Witch"
+
+PhotoboothSoloBLines_Male[0]="His Deadliest Weapon... Is His Mind!"
+PhotoboothSoloBLines_Male[1]="Strength Through Sacrifice"
+PhotoboothSoloBLines_Male[2]="Nature Bows to His Will. So shall ADVENT!"
+PhotoboothSoloBLines_Male[3]="Space and Time At His Command!"
+PhotoboothSoloBLines_Male[4]="If He Is With Us, Who Can Stand Against Us?"
+PhotoboothSoloBLines_Male[5]="Like the Laws of Nature, ADVENT Will BREAK!"
+PhotoboothSoloBLines_Male[6]="A Storm is Coming."
+PhotoboothSoloBLines_Male[7]="\"I do not fear the storm.  I am the storm.\""
+PhotoboothSoloBLines_Male[8]="If the ADVENT have gods, then it's time to pray."
+PhotoboothSoloBLines_Male[9]="Feel his POWER."
+
+PhotoboothSoloBLines_Female[0]="Her Deadliest Weapon... Is Her Mind!"
+PhotoboothSoloBLines_Female[1]="Strength Through Sacrifice"
+PhotoboothSoloBLines_Female[2]="Nature Bows to Her WIll.  So shall ADVENT!"
+PhotoboothSoloBLines_Female[3]="Space and Time At Her Command!"
+PhotoboothSoloBLines_Female[4]="If She Is With Us, Who Can Stand Against Us?"
+PhotoboothSoloBLines_Female[5]="Like the Laws of Nature, ADVENT Will BREAK!"
+PhotoboothSoloBLines_Female[6]="A Storm is Coming."
+PhotoboothSoloBLines_Female[7]="\"I do not fear the storm.  I am the storm.\""
+PhotoboothSoloBLines_Female[8]="If the ADVENT have gods, then it's time to pray."
+PhotoboothSoloBLines_Female[9]="Feel her POWER."
+
+
+; - GTS Unlocks -
+
+[WOTC_APA_TemplarUnlock1 X2SoldierAbilityUnlockTemplate]
+DisplayName = "Templar: Advancement Ceremony I"
+Summary = "All Templars' Psionic Conduit proficiency will now start at level 2, regardless of rank. You may train one non-faction soldier as a Templar Acolyte."
+
+[WOTC_APA_TemplarUnlock2 X2SoldierAbilityUnlockTemplate]
+DisplayName = "Templar: Advancement Ceremony II"
+Summary = "All Templars' Psionic Conduit proficiency will now start at level 3, regardless of rank. You may train one additional non-faction soldier as a Templar Acolyte.<br/><br/><font color='#CA7200'>Requires Advancement Ceremony I</font>"
+
+; - Ability Templates -
+
+[WOTC_APA_Conduit X2AbilityTemplate]
+LocFriendlyName = "Psionic Conduit"
+LocLongDescription = "The <Ability:ClassName/> can harness Energy from enemies they kill and use it to cast Psionic abilities that grow more powerful with experience."
+LocPromotionPopupText = "<font color='#CA7200'>FOCUS MECHANIC:</font> The <Ability:ClassName/> can harness Energy from enemies they kill and use it to cast powerful Psionic abilities. Other <Ability:ClassName/> abilities can grant additional benefits based on the amount of stored Energy.<br/><Bullet/> Templars are armed and armored with conviction - many of their abilities are guaranteed to hit and they have a chance to partially deflect incoming attacks, reducing the severity of any hits received, when successful.<br/><Bullet/> Templars can periodically Empower their abilities, channelling additional Energy into their Psionic abilities to trigger more powerful effects.<br/><br/><font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Maximum amount of stored Energy begins at <font color='#c451c2'><Ability:PSI_CONDUIT_I_MAX_FOCUS/></font>.<br/><Bullet/> Chance to partially deflect incoming attacks begins at <font color='#3ABD23'><Ability:PSI_CONDUIT_I_DEFLECT_CHANCE/>%</font>.<br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Maximum amount of stored Energy is increased to <font color='#c451c2'><Ability:PSI_CONDUIT_II_MAX_FOCUS/></font>. Begin missions with <font color='#c451c2'><Ability:PSI_CONDUIT_II_STARTING_FOCUS/></font> Energy already stored.<br/><Bullet/> Chance to partially deflect incoming attacks is increased to <font color='#3ABD23'><Ability:PSI_CONDUIT_II_DEFLECT_CHANCE/>%</font>.<br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6])<br/><Bullet/> Maximum amount of stored Energy is increased to <font color='#c451c2'><Ability:PSI_CONDUIT_III_MAX_FOCUS/></font>.<br/><Bullet/> Chance to partially deflect incoming attacks is increased to <font color='#3ABD23'><Ability:PSI_CONDUIT_III_DEFLECT_CHANCE/>%</font>."
+
+[WOTC_APA_GainFocusOnKill X2AbilityTemplate]
+LocFriendlyName = "Harnessing Energy..."
+LocFlyOverText = "Harnessing Energy..."
+
+[WOTC_APA_Empower X2AbilityTemplate]
+LocFriendlyName = "Empower"
+LocFlyOverText = "Empower"
+LocHelpText = "Activate and the next Energy ability used this turn will be Empowered, costing <font color='#c451c2'><Ability:EMPOWER_FOCUS_COST_INCREASE/></font> additional Energy to cast, but granting additional effects."
+LocLongDescription = "Activate and the next Energy ability used this turn will be Empowered, costing <font color='#c451c2'><Ability:EMPOWER_FOCUS_COST_INCREASE/></font> additional Energy to cast, but granting additional effects."
+LocPromotionPopupText = "Activate and the next Energy ability used this turn will be Empowered, costing <font color='#c451c2'><Ability:EMPOWER_FOCUS_COST_INCREASE/></font> additional Energy to cast, but granting additional effects.<br/><br/><Bullet/> Empower is a free action that can also be activated with move-only or momentum action points.<br/><Bullet/> Empower is only available when more than 1 Energy is available to use.<br/><Bullet/> Only one ability may be Empowered per turn and unused activations are not carried over between turns (you can't bank activations to circumvent the cooldown).<br/><Bullet/> When Empower is active and an Energy ability is cast that cannot afford the addition Energy cost, it will be cast normally instead."
+
+[WOTC_APA_Rend X2AbilityTemplate]
+LocFriendlyName = "Rend"
+LocFlyOverText = "Rend"
+LocHelpText = "Melee attack that is guaranteed to hit. Triggers Momentum, and allows the <Ability:ClassName/> to absorb Energy when killing organic enemies."
+LocLongDescription = "Melee attack that is guaranteed to hit. Triggers Momentum, and allows the <Ability:ClassName/> to absorb Energy when killing organic enemies."
+LocPromotionPopupText = "Melee attack that is guaranteed to hit. Triggers Momentum, and allows the <Ability:ClassName/> to absorb Energy when killing organic enemies.<br/><br/><Bullet/> Energy can only be harvested from sentient, organic enemies. Killing mechanical enemies or zombies provides no opportunity to harness Energy.<br/><Bullet/> Momentum is triggered after a Rend attack, allowing the <Ability:ClassName/> to move, or even trigger some castible Energy abilities.<br/><Bullet/> The damage from Rend's Psi Blades is determined by the Tech level of equipped Gauntlets, but with the Consecrated Blades ability, it can be enhanced based on current Energy levels."
+
+[WOTC_APA_Brand X2AbilityTemplate]
+LocFriendlyName = "Brand"
+LocFlyOverText = "<Ability:EMPOWERED_BRAND_NAME/>Brand"
+LocHelpText = "<Ability:DYNAMIC_BRAND_DESCRIPTION/> <font color='#CA7200'><Ability:BRAND_COOLDOWN/></font>-turn cooldown."
+LocLongDescription = "Brand an enemy with a psionic hex, permanently weakening them against all incoming attacks. Grants the <Ability:ClassName/> a <font color='#3ABD23'><Ability:BRAND_FOCUS_CHANCE/>%</font> chance to harvest the target's Energy on death, regardless how or by whom the target was killed."
+LocPromotionPopupText = "Brand an enemy with a psionic hex, permanently enhancing all attacks against them:<br/><br/><font color='#CA7200'>Base Effects:</font> (<font color='#c451c2'><Ability:BRAND_FOCUS_COST/> Energy</font>)<br/><Bullet/> Attacks against the target gain <font color='#3ABD23'>+<Ability:BRAND_OFFENSE_STAT_BONUS/>%</font> Chance to Hit/Crit.<br/><Bullet/> The <Ability:ClassName/> gains a <font color='#3ABD23'><Ability:BRAND_FOCUS_CHANCE/>%</font> chance to harness Energy through the brand when the target is killed by means that would not normally grant Energy.<br/><br/><font color='#CA7200'>Empowered Effects:</font> (<font color='#c451c2'><Ability:BRAND_EMPOWERED_FOCUS_COST/> Energy</font>)<br/><Bullet/> Target suffers <font color='#3ABD23'>+<Ability:BRAND_EMPOWERED_BASE_DAMAGE_BONUS/></font> Damage when attacked and an additional <font color='#3ABD23'>+<Ability:BRAND_EMPOWERED_CRIT_DAMAGE_BONUS/></font> Damage when Critically Hit.<br/><br/>NOTES:<br/><Bullet/> The effects from Brand will persist so long as the <Ability:ClassName/> remains alive.<br/><Bullet/> Brand does not automatically end the turn if the <Ability:ClassName/> has actions remaining.<br/><Bullet/> The Brand allows the <Ability:ClassName/> to potentially harvest Energy from the target on death, regardless how or by whom the target was killed (so long as Energy is not being harnessed directly through Rend, etc.)."
+
+[WOTC_APA_Volt X2AbilityTemplate]
+LocFriendlyName = "Volt"
+LocFlyOverText = "Volt"
+LocHelpText = "<Ability:DYNAMIC_VOLT_DESCRIPTION/>"
+LocLongDescription = "Channel Energy into a focused electrical lightning strike, dealing increased damage (approx: <font color='#3ABD23'>+50%</font>) to robotic enemies."
+LocPromotionPopupText = "Channel Energy into a focused electrical lightning strike:<br/><br/><font color='#CA7200'>Base Effects:</font> (<font color='#c451c2'><Ability:VOLT_FOCUS_COST/> Energy</font>)<br/><Bullet/> Ranged lightning attack that is guaranteed to hit.<br/><Bullet/> Volt damage scales with the tech level of equipped Gauntlets and deals approximately <font color='#3ABD23'>+50%</font> damage to robotic enemies.<br/><br/><font color='#CA7200'>Empowered Effects:</font> (<font color='#c451c2'><Ability:VOLT_EMPOWERED_FOCUS_COST/> Energy</font>)<br/><Bullet/> Volt deals approximately <font color='#3ABD23'>+25%</font> additional base damage to all targets and bypasses any shields or armor.<br/><br/>NOTES:<br/><Bullet/> Volt has no cooldown, but is always a turn-ending attack.<br/><Bullet/> The additional damage against robotic enemies scales up with the increased base damage of Empowered Volt.<br/><Bullet/> Volt is a single-target attack that does not jump to nearby targets."
+
+[WOTC_APA_Parry X2AbilityTemplate]
+LocFriendlyName = "Parry"
+LocFlyOverText = "Parry"
+LocHelpText = "<Ability:DYNAMIC_PARRY_DESCRIPTION/>"
+LocLongDescription = "Focus Energy into a defensive shield, deflecting all damage from the next <Ability:PARRY_ACTIVATIONS/> that would hit the <Ability:ClassName/>."
+LocPromotionPopupText = "Focus Energy into a defensive shield, deflecting all damage from the next <Ability:PARRY_ACTIVATIONS/> that would hit the <Ability:ClassName/>.<br/><br/><font color='#CA7200'>Base Effects:</font> (<font color='#c451c2'><Ability:PARRY_FOCUS_COST/> Energy</font>)<br/><Bullet/> Deflect ALL damage from the next attack that would hit the <Ability:ClassName/>.<br/><br/><font color='#CA7200'>Empowered Effects:</font> (<font color='#c451c2'><Ability:PARRY_EMPOWERED_FOCUS_COST/> Energy</font>)<br/><Bullet/> Parried attacks will reflect all incoming damage back at the attacker.<br/><br/>NOTES:<br/><Bullet/> Parry can be activated with movement-only or Momentum action points.<br/><Bullet/> Parry can also be activated with standard action points when moving in to Rend is not desired.<br/><Bullet/> Some special attacks, such as the Hunter's Tracking Shot, cannot be parried. Missed attacks will not use up Parry activations and will not be reflected back at the attacker, if empowered."
+
+[WOTC_APA_PsiStrike X2AbilityTemplate]
+LocFriendlyName = "Psi Strike"
+LocFlyOverText = "Psi Strike"
+LocHelpText = "<Ability:DYNAMIC_PSI_STRIKE_DESCRIPTION/>"
+LocLongDescription = "Hit an organic enemy with a ball of Psionic energy that will deal a small amount of guaranteed damage, knocking the target back and disorienting or stunning them."
+LocPromotionPopupText = "Hit an organic enemy with a ball of Psionic energy that will deal a small amount of guaranteed damage, knocking the target back and disorienting or stunning them:<br/><br/><font color='#CA7200'>Base Effects:</font> (<font color='#c451c2'><Ability:PSI_STRIKE_FOCUS_COST/> Energy</font>)<br/><Bullet/> Ranged Psi attack that is guaranteed to hit, knocking the target back and disorienting them.<br/><Bullet/> Psi Strike damage scales with the tech level of equipped Gauntlets.<br/><br/><font color='#CA7200'>Empowered Effects:</font> (<font color='#c451c2'><Ability:PSI_STRIKE_EMPOWERED_FOCUS_COST/> Energy</font>)<br/><Bullet/> Psi Strike has a <font color='#3ABD23'><Ability:PSI_STRIKE_STUN_CHANCE/>%</font> chance to stun the target instead of disorienting them.<br/><Bullet/> Psi Strike's impairing effects will disable the target's ability to use Sustain.<br/><Bullet/> Psi Strike will deal bonus damage to Psionic enemies and is guaranteed to stun them, if not immune.<br/><br/>NOTES:<br/><Bullet/> Psi Strike can only be cast once per turn, but will not automatically end the turn if the <Ability:ClassName/> has actions remaining.<br/><Bullet/> Psi Strike's damage bypasses any shields or armor.<br/><Bullet/> Psi Strike cannot target mechanical enemies."
+
+[WOTC_APA_Soulbind X2AbilityTemplate]
+LocFriendlyName = "Soulbind"
+LocFlyOverText = "Soulbind"
+LocHelpText = "Rend attacks that damage, but do not kill a living target still give a <font color='#3ABD23'><Ability:SOULBIND_FOCUS_CHANCE/>%</font> chance to transfer Energy to the <Ability:ClassName/>. Rend attacks that do kill a living target can regenerate <font color='#3ABD23'><Ability:SOULBIND_HP_HEALED/>HP</font> for the <Ability:ClassName/>."
+LocLongDescription = "Rend attacks that damage, but do not kill a living target still give a <font color='#3ABD23'><Ability:SOULBIND_FOCUS_CHANCE/>%</font> chance to transfer Energy to the <Ability:ClassName/>. Rend attacks that do kill a living target can regenerate <font color='#3ABD23'><Ability:SOULBIND_HP_HEALED/>HP</font> for the <Ability:ClassName/>."
+LocPromotionPopupText = "Rend attacks that damage, but do not kill a living target still give a <font color='#3ABD23'><Ability:SOULBIND_FOCUS_CHANCE/>%</font> chance to transfer Energy to the <Ability:ClassName/>. Rend attacks that do kill a living target can regenerate <font color='#3ABD23'><Ability:SOULBIND_HP_HEALED/>HP</font> for the <Ability:ClassName/>.<br/><br/><Bullet/> HP cannot be regenerated and Energy cannot be harvested through Soulbind from mechanical enemies or zombies."
+
+[WOTC_APA_ConsecratedBlades X2AbilityTemplate]
+LocFriendlyName = "Consecrated Blades"
+LocFlyOverText = "Consecrated Blades"
+LocHelpText = "The <Ability:ClassName/> pours Energy into their Psi Blades, scaling up their Rend damage based on current Energy levels. Gain <font color='#3ABD23'>+<Ability:CONSECRATED_BLADES_DAMAGE_CHANCE/>%</font> chance to deal <font color='#3ABD23'>+<Ability:CONSECRATED_BLADES_DAMAGE_BONUS/></font> Damage on all Psi Blade attacks for each unit of Energy stored, but the maximum amount of Energy the <Ability:ClassName/> can harness at any one time is reduced by <font color='#CA7200'><Ability:CONSECRATED_BLADES_MAX_FOCUS_MODIFIER/></font>."
+LocLongDescription = "The <Ability:ClassName/> pours Energy into their Psi Blades, scaling up their Rend damage based on current Energy levels. Gain <font color='#3ABD23'>+<Ability:CONSECRATED_BLADES_DAMAGE_CHANCE/>%</font> chance to deal <font color='#3ABD23'>+<Ability:CONSECRATED_BLADES_DAMAGE_BONUS/></font> Damage on all Psi Blade attacks for each unit of Energy stored, but the maximum amount of Energy the <Ability:ClassName/> can harness at any one time is reduced by <font color='#CA7200'><Ability:CONSECRATED_BLADES_MAX_FOCUS_MODIFIER/></font>."
+LocPromotionPopupText = "The <Ability:ClassName/> pours Energy into their Psi Blades, scaling up their Rend damage based on current Energy levels. Gain <font color='#3ABD23'>+<Ability:CONSECRATED_BLADES_DAMAGE_CHANCE/>%</font> chance to deal <font color='#3ABD23'>+<Ability:CONSECRATED_BLADES_DAMAGE_BONUS/></font> Damage on all Psi Blade attacks for each unit of Energy stored, but the maximum amount of Energy the <Ability:ClassName/> can harness at any one time is reduced by <font color='#CA7200'><Ability:CONSECRATED_BLADES_MAX_FOCUS_MODIFIER/></font>.<br/><br/><Bullet/> The chance to deal additional Damage stacks and rolls over: For example, having 150% chance would result in a guaranteed (100%) <font color='#3ABD23'>+<Ability:CONSECRATED_BLADES_DAMAGE_BONUS/></font> Damage and a 50% chance to roll an additional <font color='#3ABD23'>+<Ability:CONSECRATED_BLADES_DAMAGE_BONUS/></font> Damage.<br/><Bullet/> The bonus Damage from Consecrated Blades impacts direct Psi Blade attacks, such as Rend and Skyfall, as well as reaction attacks from Bladestorm.<br/><Bullet/> The bonus damage from Consecrated Blades only applies to the primary target, and does not affect any additional AOE targets from Arcwave, etc."
+
+[WOTC_APA_Castigate X2AbilityTemplate]
+LocFriendlyName = "Castigate"
+LocFlyOverText = "Castigate"
+LocHelpText = "Offensive abilities cast with Energy will also apply stat penalties to the targets. Will and Psi Offense stats will be reduced by <font color='#CA7200'>-<Ability:CASTIGATE_MENTAL_STAT_MODIFIER/>%</font> and the target's chance to hit/crit will be reduced by <font color='#CA7200'><Ability:CASTIGATE_OFFENSE_STAT_MODIFIER/>%</font>."
+LocLongDescription = "Offensive abilities cast with Energy will also apply stat penalties to the targets. Will and Psi Offense stats will be reduced by <font color='#CA7200'>-<Ability:CASTIGATE_MENTAL_STAT_MODIFIER/>%</font> and the target's chance to hit/crit will be reduced by <font color='#CA7200'><Ability:CASTIGATE_OFFENSE_STAT_MODIFIER/>%</font>."
+LocPromotionPopupText = "Offensive abilities cast with Energy will also apply stat penalties to the targets. Will and Psi Offense stats will be reduced by <font color='#CA7200'>-<Ability:CASTIGATE_MENTAL_STAT_MODIFIER/>%</font> and the target's chance to hit/crit will be reduced by <font color='#CA7200'><Ability:CASTIGATE_OFFENSE_STAT_MODIFIER/>%</font>.<br/><br/><Bullet/> Stat penalties from Castigate will persist on targets so long as the <Ability:ClassName/> remains alive.<br/><Bullet/> Stat penalties from Castigate cannot be stacked."
+
+[WOTC_APA_CastigateApply X2AbilityTemplate]
+LocFriendlyName = "Castigate"
+LocFlyOverText = "Castigate"
+LocHelpText = "Target has been cursed, reducing their Will and Psi Offense stats by <font color='#CA7200'>-<Ability:CASTIGATE_MENTAL_STAT_MODIFIER/>%</font> and their chance to hit/crit by <font color='#CA7200'><Ability:CASTIGATE_OFFENSE_STAT_MODIFIER/>%</font>."
+
+[WOTC_APA_Fuse X2AbilityTemplate]
+LocFriendlyName = "Fuse"
+LocFlyOverText = "Fuse"
+LocHelpText = "<Ability:DYNAMIC_FUSE_DESCRIPTION/> <font color='#CA7200'><Ability:FUSE_COOLDOWN/></font>-turn cooldown."
+LocLongDescription = "Remotely detonate an enemy's equipped explosive. <font color='#CA7200'><Ability:FUSE_COOLDOWN/></font>-turn cooldown."
+LocPromotionPopupText = "Remotely detonate an enemy's equipped explosive:<br/><br/><font color='#CA7200'>Base Effects:</font> (<font color='#c451c2'><Ability:FUSE_FOCUS_COST/> Energy</font>)<br/><Bullet/> Remotely detonate an enemy's equipped explosive.<br/><br/><font color='#CA7200'>Empowered Effects:</font> (<font color='#c451c2'><Ability:FUSE_EMPOWERED_FOCUS_COST/> Energy</font>)<br/><Bullet/> Increase the radius of the detonated explosive by <font color='#3ABD23'>+<Ability:FUSE_EMPOWERED_EXPLOSION_RADIUS_BONUS/></font> meter.<br/><br/>NOTES:<br/><Bullet/> Fuse renders the enemy's explosive item or ability unusable to them.<br/><Bullet/> Fuse can be used on Mechs' Micro Missles, as well as most enemy-equipped grenades and rockets."
+
+[WOTC_APA_Harden X2AbilityTemplate]
+LocFriendlyName = "Harden"
+LocFlyOverText = "Harden"
+LocHelpText = "<Ability:DYNAMIC_HARDEN_DESCRIPTION/> <font color='#CA7200'><Ability:HARDEN_COOLDOWN/></font>-turn cooldown."
+LocLongDescription = "Reinforce physical resistances with an Energy shield. Grants Shield points to the <Ability:ClassName/> and, when Empowered, to nearby allies. <font color='#CA7200'><Ability:HARDEN_COOLDOWN/></font>-turn cooldown."
+LocPromotionPopupText = "Reinforce physical resistances with an Energy shield:<br/><br/><font color='#CA7200'>Base Effects:</font> (<font color='#c451c2'><Ability:HARDEN_FOCUS_COST/> Energy</font>)<br/><Bullet/> Grants the <Ability:ClassName/> up to <font color='#3ABD23'><Ability:HARDEN_SHIELD_POINTS/></font> Shield points, if below.<br/><br/><font color='#CA7200'>Empowered Effects:</font> (<font color='#c451c2'><Ability:HARDEN_EMPOWERED_FOCUS_COST/> Energy</font>)<br/><Bullet/> Grant all allies within a <font color='#3ABD23'><Ability:HARDEN_AREA_TILE_RADIUS/></font> Tile radius <font color='#3ABD23'>+<Ability:HARDEN_AREA_SHIELD_POINTS/></font> Shield point.<br/><br/>NOTES:<br/><Bullet/> Harden does not automatically end the turn if the <Ability:ClassName/> has actions remaining.<br/><Bullet/> Harden can be activated with movement-only or Momentum action points.<br/><Bullet/> Harden's Energy shield will always break squad concealment."
+
+[WOTC_APA_Meditate X2AbilityTemplate]
+LocFriendlyName = "Meditate"
+LocFlyOverText = "Meditate"
+LocHelpText = "Pause in the chaos of battle to draw Energy from beyond. Energy levels will be raised up to <font color='#c451c2'><Ability:MEDITATE_FOCUS_CAP/></font>, if below."
+LocLongDescription = "Pause in the chaos of battle to draw Energy from beyond. Energy levels will be raised up to <font color='#c451c2'><Ability:MEDITATE_FOCUS_CAP/></font>, if below."
+LocPromotionPopupText = "Pause in the chaos of battle to draw Energy from beyond. Energy levels will be raised up to <font color='#c451c2'><Ability:MEDITATE_FOCUS_CAP/></font>, if below.<br/><br/><Bullet/> Meditate requires 2 actions and is always turn-ending."
+
+[WOTC_APA_Solace X2AbilityTemplate]
+LocFriendlyName = "Solace"
+LocFlyOverText = "Solace"
+LocHelpText = "The <Ability:ClassName/> is surrounded by an aura that immediately extinguishes or blocks any mental impairments for themselves and any nearby squadmates."
+LocLongDescription = "The <Ability:ClassName/> is surrounded by an aura that immediately extinguishes or blocks any mental impairments for themselves and any nearby squadmates."
+LocPromotionPopupText = "The <Ability:ClassName/> is surrounded by an aura that immediately extinguishes or blocks any mental impairments for themselves and any nearby squadmates.<br/><br/><Bullet/> Solace has a 4 tile radius.<br/><Bullet/> Moving next to afflicted allies will immediately cleanse their mental impairments."
+
+[WOTC_APA_Reanimate X2AbilityTemplate]
+LocFriendlyName = "Reanimate"
+LocFlyOverText = "Reanimate"
+LocHelpText = "<Ability:DYNAMIC_REANIMATE_DESCRIPTION/> <font color='#CA7200'><Ability:REANIMATE_COOLDOWN/></font>-turn cooldown."
+LocLongDescription = "Use Energy to reanimate a nearby dead humanoid to fight for you as a Zombie."
+LocPromotionPopupText = "Use Energy to reanimate a nearby dead humanoid to fight for you as a Zombie:<br/><br/><font color='#CA7200'>Base Effects:</font> (<font color='#c451c2'><Ability:REANIMATE_FOCUS_COST/> Energy</font>)<br/><Bullet/> Raise a Zombie that begins with 1 action immediately after spawning.<br/><br/><font color='#CA7200'>Empowered Effects:</font> (<font color='#c451c2'><Ability:REANIMATE_EMPOWERED_FOCUS_COST/> Energy</font>)<br/><Bullet/> The raised Zombie is empowered, gaining additional Health, Dodge, and Mobility.<br/><Bullet/> The raised Zombie begins with 2 actions immediately after spawning.<br/><br/>NOTES:<br/><Bullet/> Reanimated Zombies have a dashing-melee claw attack that may be used with movement.<br/><Bullet/> Reanimated Zombies will not be affected when their linked Templar is impaired, but will be killed if their linked Templar is removed from play (killed, evaced, etc.).<br/><Bullet/> Eligible bodies must be within <font color='#CA7200'><Ability:REANIMATE_TILE_RANGE/></font> Tiles to be reanimated - the range will be shown when selecting the ability.<br/><Bullet/> The number Zombies that a Templar can maintain at once is limited to: <font color='#CA7200'><Ability:REANIMATE_ZOMBIE_LIMIT/></font>. <br/><Bullet/> Reanimating a Zombie will always break squad concealment."
+
+[WOTC_APA_ZombieClawSlash X2AbilityTemplate]
+LocFriendlyName = "Zombie Slash"
+LocFlyOverText = "Zombie Slash"
+LocHelpText = "Attack an enemy within movement range with the Zombie's claws."
+LocLongDescription = "Attack an enemy within movement range with the Zombie's claws."
+
+[WOTC_APA_ArcWave X2AbilityTemplate]
+LocFriendlyName = "ArcWave"
+LocFlyOverText = "ArcWave"
+LocHelpText = "Rend now generates a wave of Psionic energy in the direction of the attack that can hit multiple nearby targets. Damage of the Psionic wave increases based on current Energy levels."
+LocLongDescription = "Rend now generates a wave of Psionic energy in the direction of the attack that can hit multiple nearby targets. Damage of the Psionic wave increases based on current Energy levels."
+LocPromotionPopupText = "Rend now generates a wave of Psionic energy in the direction of the attack that can hit multiple nearby targets. Damage of the Psionic wave increases based on current Energy levels.<br/><br/><Bullet/> The Psionic wave deals <font color='#3ABD23'><Ability:ARCWAVE_BASE_DAMAGE/></font> base damage and can deal additional damage if the <Ability:ClassName/> has higher Energy reserves.<br/><Bullet/> The scaling damage effect of Arcwave only affects any additional AOE targets. It is not added to damage dealt to the primary target."
+
+[WOTC_APA_ArcWaveRend X2AbilityTemplate]
+LocFriendlyName = "Rend"
+LocFlyOverText = "Rend"
+LocHelpText = "Melee attack that is guaranteed to hit. Triggers Momentum, and allows the <Ability:ClassName/> to absorb Energy when killing organic enemies."
+LocLongDescription = "Melee attack that is guaranteed to hit. Triggers Momentum, and allows the <Ability:ClassName/> to absorb Energy when killing organic enemies."
+
+[WOTC_APA_Exchange X2AbilityTemplate]
+LocFriendlyName = "Exchange"
+LocFlyOverText = "Exchange"
+LocHelpText = "<Ability:DYNAMIC_EXCHANGE_DESCRIPTION/> <font color='#CA7200'><Ability:EXCHANGE_COOLDOWN/></font>-turn cooldown."
+LocLongDescription = "Teleport yourself and an ally, exchanging positions on the battlefield."
+LocPromotionPopupText = "Teleport yourself and an ally, exchanging positions on the battlefield:<br/><br/><font color='#CA7200'>Base Effects:</font> (<font color='#c451c2'><Ability:EXCHANGE_FOCUS_COST/> Energy</font>)<br/><Bullet/> Teleport yourself and an ally, swapping positions.<br/><br/><font color='#CA7200'>Empowered Effects:</font> (<font color='#c451c2'><Ability:EXCHANGE_EMPOWERED_FOCUS_COST/> Energy</font>)<br/><Bullet/> The <Ability:ClassName/> will self-Stasis after the teleport.<br/><br/>NOTES:<br/><Bullet/> Exchange's teleports will not trigger overwatch.<br/><Bullet/> Exchange can be used to position the <Ability:ClassName/> and/or the target ally both offensively and defensively.<br/><Bullet/> Exchange will not automatically end the turn if the <Ability:ClassName/> has actions remaining.<br/><Bullet/> The self-Stasis from an Empowered Exchange will use up all remaining actions - use those actions first before casting an Empowered Exchange, if possible!"
+
+[WOTC_APA_VoidConduit X2AbilityTemplate]
+LocFriendlyName = "Void Conduit"
+LocFlyOverText = "Void Conduit"
+LocHelpText = "<Ability:DYNAMIC_VOID_CONDUIT_DESCRIPTION/> <font color='#CA7200'><Ability:VOID_CONDUIT_COOLDOWN/></font>-turn cooldown."
+LocLongDescription = "Trap a humanoid enemy in a psionic prison. On activation, at the beginning of each turn, and on expiration, deals <font color='#3ABD23'><Ability:VOID_CONDUIT_DAMAGE/>HP</font> damage to the target, transferring <font color='#3ABD23'><Ability:VOID_CONDUIT_HEALED/>HP</font> of that damage over to heal the <Ability:ClassName/>. If the target dies while held within the Void, the <Ability:ClassName/> will absorb their Energy, regardless how or by whom the target was killed. <font color='#CA7200'><Ability:VOID_CONDUIT_COOLDOWN/></font>-turn cooldown."
+LocPromotionPopupText = "Trap a humanoid enemy in a psionic prison. On activation, at the beginning of each turn, and on expiration, deals <font color='#3ABD23'><Ability:VOID_CONDUIT_DAMAGE/>HP</font> damage to the target, transferring <font color='#3ABD23'><Ability:VOID_CONDUIT_HEALED/>HP</font> of that damage over to heal the <Ability:ClassName/>.<br/><br/><font color='#CA7200'>Base Effects:</font> (<font color='#c451c2'><Ability:VOID_CONDUIT_FOCUS_COST/> Energy</font>)<br/><Bullet/> Holds a humanoid enemy for <font color='#3ABD23'><Ability:VOID_CONDUIT_BASE_DURATION/></font> turn, preventing them from taking any actions.<br/><Bullet/> The <Ability:ClassName/> will absorb the target's Energy, regardless how or by whom they were killed while linked through the Void.<br/><br/><font color='#CA7200'>Empowered Effects:</font> (<font color='#c451c2'><Ability:VOID_CONDUIT_EMPOWERED_FOCUS_COST/> Energy</font>)<br/><Bullet/> The target is held (and suffers damage) within the Void for <font color='#3ABD23'>+<Ability:VOID_CONDUIT_BONUS_DURATION/></font> additional turn.<br/><br/>NOTES:<br/><Bullet/> Void Conduit will not automatically end the turn if the <Ability:ClassName/> has actions remaining.<br/><Bullet/> After disabling the target for the appropriate number of enemy turns, the effects of Void Conduit will persist through the next player turn before wearing off (allowing an opportunity to take advantage of the Energy harvesting effect). At the beginning of the next enemy turn, the final damage tick will occur, the effect will expire, and the enemy will be released to take actions."
+
+[WOTC_APA_Skyfall X2AbilityTemplate]
+LocFriendlyName = "Skyfall"
+LocFlyOverText = "Skyfall"
+LocHelpText = "<Ability:DYNAMIC_SKYFALL_DESCRIPTION/> <font color='#CA7200'><Ability:SKYFALL_COOLDOWN/></font>-turn cooldown."
+LocLongDescription = "Teleport down from the icy void, rending an enemy anywhere on the map, dealing <font color='#3ABD23'>+<Ability:SKYFALL_DAMAGE_MULTIPLIER/>%</font> damage and freezing the target. The <Ability:ClassName/> will absorb one additional unit of Energy when valid targets are killed by Skyfall."
+LocPromotionPopupText = "Teleport down from the icy void, rending and freezing an enemy anywhere on the map.<br/><br/><font color='#CA7200'>Base Effects:</font> (<font color='#c451c2'><Ability:SKYFALL_FOCUS_COST/> Energy</font>)<br/><Bullet/> Rend attack deals <font color='#3ABD23'>+<Ability:SKYFALL_DAMAGE_MULTIPLIER/>%</font> damage.<br/><Bullet/> The <Ability:ClassName/> will absorb one additional unit of Energy (over standard Rend) when valid targets are killed by Skyfall.<br/><br/><font color='#CA7200'>Empowered Effects:</font> (<font color='#c451c2'><Ability:SKYFALL_EMPOWERED_FOCUS_COST/> Energy</font>)<br/><Bullet/> The <Ability:ClassName/> will gain a Momentum action, allowing them to return to the safety of cover.<br/><Bullet/> All enemies within <font color='#3ABD23'><Ability:SKYFALL_TILE_RADIUS/></font> Tiles of the target will be Disoriented.<br/><br/>NOTES:<br/><Bullet/> Skyfall does not require the <Ability:ClassName/> themselves to have vision on targets - any enemy visible to the squad can be targeted, provided there is a free adjacent tile."
+
+[WOTC_APA_SkyfallPassive X2AbilityTemplate]
+LocFriendlyName = "Skyfall"
+
+[WOTC_APA_SkyfallAttack X2AbilityTemplate]
+LocFriendlyName = "Skyfall"
+LocFlyOverText = "Skyfall"
+
+[WOTC_APA_SunderingStorm X2AbilityTemplate]
+LocFriendlyName = "Sundering Storm"
+LocFlyOverText = "Sundering Storm"
+LocHelpText = "<Ability:DYNAMIC_SUNDERING_STORM_DESCRIPTION/> <font color='#CA7200'><Ability:SUNDERING_STORM_COOLDOWN/></font>-turn cooldown."
+LocLongDescription = "Move to a location, calling forth a psionic storm that damages and shreds the armor of all enemies within a <font color='#3ABD23'><Ability:SUNDERING_STORM_TILE_RADIUS/></font> Tile radius."
+LocPromotionPopupText = "Move to a location, calling forth a psionic storm that damages and shreds the armor of all enemies within a <font color='#3ABD23'><Ability:SUNDERING_STORM_TILE_RADIUS/></font> Tile radius:<br/><br/><font color='#CA7200'>Base Effects:</font> (<font color='#c451c2'><Ability:SUNDERING_STORM_FOCUS_COST/> Energy</font>)<br/><Bullet/> Sundering Storm damage scales with the tech level of equipped Gauntlets and shreds <font color='#3ABD23'>1</font> point of Armor.<br/><br/><font color='#CA7200'>Empowered Effects:</font> (<font color='#c451c2'><Ability:SUNDERING_STORM_EMPOWERED_FOCUS_COST/> Energy</font>)<br/><Bullet/> Damages the environmental around each target and shreds <font color='#3ABD23'>1</font> additional point of Armor.<br/><Bullet/> Leaves behind a <font color='#3ABD23'><Ability:SUNDERING_STORM_SMOKE_TILE_RADIUS/></font> tile defensive smoke cloud at the <Ability:ClassName/>'s location.<br/><br/>NOTES:<br/><Bullet/> The damage from Sundering Storm's psionic lightning bypasses enemy shields.<br/><Bullet/> Sundering Storm is activated on a tile within the <Ability:ClassName/>'s current movement range.<br/><Bullet/> Sundering Storm always ends the <Ability:ClassName/>'s turn."
+
+[WOTC_APA_AlchemicalCatalysts X2AbilityTemplate]
+LocFriendlyName = "Alchemical Catalysts"
+LocFlyOverText = "Alchemical Catalysts"
+LocHelpText = "Thrown grenades gain <font color='#3ABD23'>+1</font> Tile to their explosion radius."
+LocLongDescription = "Thrown grenades gain <font color='#3ABD23'>+1</font> Tile to their explosion radius."
+LocPromotionPopupText = "Thrown grenades gain <font color='#3ABD23'>+1</font> Tile to their explosion radius.<br/><br/><Bullet/> Does not apply to Heavy Weapons or other special explosive devices."
